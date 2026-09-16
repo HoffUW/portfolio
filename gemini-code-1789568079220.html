@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Learning Experience Designer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo"><strong>YN</strong> Your Name</div>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <span class="badge">LXD & Media Strategy</span>
+    <h1>Bridging learning theory and human-centric performance</h1>
+    <p>Designing engaging learning experiences that drive measurable outcomes through adult learning principles, UX design, and emerging tech.</p>
+    <a href="#projects" class="btn">Explore Projects</a>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>Featured Projects</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Strategic AI Prompting Architecture</h3>
+        <p>Built an adaptive microlearning module and sandbox incorporating cognitive load theory and prompt frameworks.</p>
+        <button onclick="openModal('project1')">Read Case Study</button>
+      </article>
+      <article class="card">
+        <h3>Model Selection & Cost Optimization</h3>
+        <p>Engineered prompt routing and token optimization strategies for enterprise AI adoption.</p>
+        <button onclick="openModal('project2')">Read Case Study</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise" class="container bg-alt">
+    <h2>Core Expertise</h2>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <h3>Instructional Systems Design</h3>
+        <p>ADDIE methodology, gap analysis, root cause investigations, and adult learning principles.</p>
+      </div>
+      <div class="skill-item">
+        <h3>eLearning & AI Solutions</h3>
+        <p>Rapid digital content creation, custom RAG AI assistants, and visual storyboarding.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section id="education" class="container">
+    <h2>Education & Certifications</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <h3>Master of Education</h3>
+        <p>Instructional Design & Technology</p>
+      </div>
+      <div class="cert-card">
+        <h3>Graduate Certificate</h3>
+        <p>Learning Experience Design</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Modal / Section -->
+  <section id="contact" class="container bg-alt">
+    <h2>Let’s Build Together</h2>
+    <form id="contactForm" onsubmit="handleFormSubmit(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Modal Component -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
