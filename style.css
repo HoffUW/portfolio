@@ -10,11 +10,20 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--text-dark); background: var(--bg-light); line-height: 1.6; }
 
-.navbar { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 5%; background: var(--bg-light); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.navbar { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 1.5rem 5%; 
+  background: var(--bg-light);
+  border-bottom: 1px solid var(--border); 
+  position: sticky; 
+  top: 0; 
+  z-index: 100; }
 .nav-links { display: flex; list-style: none; gap: 1.5rem; }
 .nav-links a { text-decoration: none; color: var(--text-dark); font-weight: 500; }
 
-.hero { text-align: center; padding: 5rem 1rem; max-width: 800px; margin: 0 auto; }
+.hero { text-align: center; padding: 2rem 1rem 3rem 1rem; max-width: 800px; margin: 0 auto; }
 .hero h1 { font-size: 2.5rem; margin: 1rem 0; }
 .hero p { color: var(--text-muted); font-size: 1.125rem; margin-bottom: 1.5rem; }
 
@@ -33,6 +42,7 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); justify-content: center; align-items: center; }
 .modal-content { background: white; padding: 2rem; border-radius: 8px; max-width: 500px; width: 90%; position: relative; }
 .close-btn { position: absolute; top: 1rem; right: 1rem; font-size: 1.5rem; cursor: pointer; }
+
 
 
 /* Photo Styling */
@@ -86,9 +96,10 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 
 /* Text styling */
 .brand-text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   color: #111827;
+  white-space:nowrap;
 }
 
 .divider {
@@ -115,7 +126,17 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Soft card shadow */
 }
 
+/* Styling for the button wrapper outside the container */
+.hero-cta {
+  text-align: center;
+  margin-top: 2rem; /* Adjust space between the container and the button */
+}
 
+/* Optional: Ensures button displays as inline-block for clean spacing */
+.hero-cta .btn {
+  display: inline-block;
+  text-decoration: none;
+}
 
 /* Text Styling */
 .mission-text p {
@@ -131,5 +152,11 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
     flex-direction: column; /* Stacks image on top of text on small screens */
     text-align: center;
     gap: 20px;
+  }
+}
+/* CSS */
+@media (max-width:890px) {
+  .tagline, .divider {
+    display: none; /* Shows only "Andrew Hoffman" when screen width shrinks */
   }
 }
