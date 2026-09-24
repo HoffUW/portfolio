@@ -34,10 +34,14 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 .modal-content { background: white; padding: 2rem; border-radius: 8px; max-width: 500px; width: 90%; position: relative; }
 .close-btn { position: absolute; top: 1rem; right: 1rem; font-size: 1.5rem; cursor: pointer; }
 
-.profile-photo {
-  width: 150px;          /* Set a small width */
-  height: 190px;         /* Taller height creates an vertical oval frame */
-  border-radius: 50%;    /* Rounds corners into an oval shape */
+
+/* Photo Styling */
+.mission-photo img {
+  width: 140px; /* Set fixed photo width */
+  height: 190px; /* Set fixed photo height */
+  
+  border-radius: 50%; /* Makes image circular */
+  flex-shrink: 0; /* Prevents image from shrinking on smaller screens */
   border: 3px solid #ffffff; /* Subtle border framing (change color to match your palette) */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow depth */
   margin: 0 auto 1.5rem auto; /* Centers the image and adds bottom spacing */
@@ -61,6 +65,7 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  flex-shrink: 0; /* Prevents badge from shrinking on smaller screens */
   
   /* Gradient background matching the MH badge */
   background: linear-gradient(135deg, #6366f1 0%, #3b82f6 50%, #8b5cf6 100%);
@@ -110,18 +115,7 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Soft card shadow */
 }
 
-/* Photo Styling */
-.mission-photo img {
-  width: 140px; /* Set fixed photo width */
-  height: 190px; /* Set fixed photo height */
-  object-fit: cover; /* Prevents distortion */
-  border-radius: 50%; /* Makes image circular */
-  flex-shrink: 0; /* Prevents image from shrinking on smaller screens */
-  border: 3px solid #ffffff; /* Subtle border framing (change color to match your palette) */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow depth */
-  margin: 0 auto 1.5rem auto; /* Centers the image and adds bottom spacing */
-  display: block;
-}
+
 
 /* Text Styling */
 .mission-text p {
