@@ -35,12 +35,107 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 .close-btn { position: absolute; top: 1rem; right: 1rem; font-size: 1.5rem; cursor: pointer; }
 
 .profile-photo {
-  width: 120px;          /* Set a small width */
-  height: 150px;         /* Taller height creates an vertical oval frame */
-  object-fit: cover;     /* Crops the image cleanly to fit the frame */
+  width: 150px;          /* Set a small width */
+  height: 190px;         /* Taller height creates an vertical oval frame */
   border-radius: 50%;    /* Rounds corners into an oval shape */
   border: 3px solid #ffffff; /* Subtle border framing (change color to match your palette) */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow depth */
   margin: 0 auto 1.5rem auto; /* Centers the image and adds bottom spacing */
   display: block;
+}
+/* Container link styling */
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1a1a1a;
+}
+
+/* Circular Logo Badge */
+.logo-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+  /* Gradient background matching the MH badge */
+  background: linear-gradient(135deg, #6366f1 0%, #3b82f6 50%, #8b5cf6 100%);
+  
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect on the badge */
+.brand-logo:hover .logo-badge {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.35);
+}
+
+/* Text styling */
+.brand-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.divider {
+  color: #d1d5db;
+  margin: 0 4px;
+  font-weight: 300;
+}
+
+.tagline {
+  color: #6b7280;
+  font-weight: 400;
+}
+
+/* Card Container */
+.mission-container {
+  display: flex;
+  align-items: center; /* Vertically aligns image and text */
+  gap: 32px; /* Space between photo and text */
+  max-width: 800px; /* Adjust card width as needed */
+  margin: 0 auto; /* Center card on page */
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Soft card shadow */
+}
+
+/* Photo Styling */
+.mission-photo img {
+  width: 140px; /* Set fixed photo width */
+  height: 190px; /* Set fixed photo height */
+  object-fit: cover; /* Prevents distortion */
+  border-radius: 50%; /* Makes image circular */
+  flex-shrink: 0; /* Prevents image from shrinking on smaller screens */
+  border: 3px solid #ffffff; /* Subtle border framing (change color to match your palette) */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow depth */
+  margin: 0 auto 1.5rem auto; /* Centers the image and adds bottom spacing */
+  display: block;
+}
+
+/* Text Styling */
+.mission-text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 640px) {
+  .mission-container {
+    flex-direction: column; /* Stacks image on top of text on small screens */
+    text-align: center;
+    gap: 20px;
+  }
 }
