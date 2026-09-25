@@ -19,3 +19,26 @@ function handleFormSubmit(event) {
   alert("Thank you for reaching out! Your message has been recorded.");
   event.target.reset();
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+  const links = document.querySelectorAll('.nav-links a');
+
+  // Toggle mobile menu state
+  hamburger.addEventListener('click', () => {
+    const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !isExpanded);
+    hamburger.classList.toggle('active');
+    navLinks.classList.toggle('active');
+  });
+
+  // Close mobile menu when a nav item is clicked
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navLinks.classList.remove('active');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
+});

@@ -19,8 +19,77 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
   border-bottom: 1px solid var(--border); 
   position: sticky; 
   top: 0; 
-  z-index: 100; }
-.nav-links { display: flex; list-style: none; gap: 1.5rem; }
+  z-index: 100; 
+}
+.nav-links { 
+  display: flex;
+  list-style: none; 
+  gap: 1.5rem; 
+}
+
+/* Hide Hamburger button on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1000;
+}
+
+.hamburger .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #333; /* Change to match your text theme color */
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex; /* Show hamburger button on mobile */
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; /* Match your navbar background color */
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+    gap: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Hidden state */
+    display: none;
+  }
+
+  /* Active state when toggled */
+  .nav-links.active {
+    display: flex;
+  }
+
+  /* Transform hamburger to an 'X' icon when active */
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+}
+
 .nav-links a { text-decoration: none; color: var(--text-dark); font-weight: 500; }
 
 .hero { text-align: center; padding: 2rem 1rem 3rem 1rem; max-width: 800px; margin: 0 auto; }
@@ -59,9 +128,9 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 }
 /* Container link styling */
 .brand-logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 12px;
+  gap: .75rem;
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color: #1a1a1a;
@@ -96,6 +165,9 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 
 /* Text styling */
 .brand-text {
+  display: flex;
+  align-items: center; /* Vertically centers the text within the flex container */
+  flex-wrap: wrap;
   font-size: 14px;
   font-weight: 700;
   color: #111827;
@@ -155,8 +227,20 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
   }
 }
 /* CSS */
-@media (max-width:890px) {
-  .tagline, .divider {
-    display: none; /* Shows only "Andrew Hoffman" when screen width shrinks */
+@media (max-width: 768px) {
+  .brand-text {
+    flex-direction: column;   /* Stacks title and tagline vertically */
+    align-items: flex-start; /* Aligns text to the left */
+    gap: 0.2rem;             /* Tightens gap between stacked lines */
+  }
+
+  /* Hide the vertical divider when stacked */
+  .brand-text .divider {
+    display: none;
+  }
+
+  .tagline {
+    font-size: 0.85rem;       /* Slightly smaller text for better fit */
+    opacity: 0.8;             /* Optional subtle styling */
   }
 }
