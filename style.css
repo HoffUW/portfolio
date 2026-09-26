@@ -39,9 +39,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
   cursor: pointer;
   padding: 0;
   z-index: 1000;
+  appearance: none;
 }
 
 .hamburger .bar {
+  display: block;
   height: 3px;
   width: 100%;
   background-color: #333; /* Change to match your text theme color */
@@ -100,8 +102,81 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 .container { padding: 4rem 5%; max-width: 1100px; margin: 0 auto; }
 .bg-alt { background: var(--bg-alt); }
 
-.card-grid, .skills-grid, .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
-.card, .skill-item, .cert-card { background: var(--bg-light); padding: 1.5rem; border: 1px solid var(--border); border-radius: 8px; }
+.card-grid, .skills-grid, .cert-grid { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem; 
+  margin-top: 1.5rem; }
+
+  /* Responsive breakpoint for medium screens (tablets) */
+@media (max-width: 992px) {
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr); /* Drops to 2 wide */
+  }
+}
+
+/* Responsive breakpoint for small screens (mobile) */
+@media (max-width: 600px) {
+  .cert-grid {
+    grid-template-columns: 1fr; /* Drops to 1 wide */
+  }
+  
+}
+.card, .skill-item, .cert-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #4f46e5; /* Accent color matching your brand badge */
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header layout inside card */
+.cert-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Degree/Certificate Title */
+.cert-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* Optional Tag/Badge */
+.cert-badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #4f46e5;
+  background-color: #eef2ff;
+  padding: 0.25rem 0.6rem;
+  border-radius: 9999px;
+  white-space: nowrap;
+}
+
+/* Subtitle / Focus Area */
+.cert-subtitle {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.card, .skill-item, .cert-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+}
+
 
 .btn, button { background: var(--primary); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; }
 form { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: 2rem auto 0; }
@@ -168,7 +243,7 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
   display: flex;
   align-items: center; /* Vertically centers the text within the flex container */
   flex-wrap: wrap;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   color: #111827;
   white-space:nowrap;
