@@ -392,3 +392,115 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
     opacity: 0.8;             /* Optional subtle styling */
   }
 }
+/* ==========================================
+   Case Study Modal Custom Formatting
+   ========================================== */
+
+/* Expand modal container for detailed reading */
+.modal-content {
+  max-width: 750px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto; /* Enable smooth scrolling inside popup */
+  padding: 2.5rem;
+  text-align: left;
+}
+
+.cs-header {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+.cs-title {
+  font-size: 1.75rem;
+  color: var(--text-dark);
+  margin-top: 0.5rem;
+  line-height: 1.2;
+}
+
+.cs-subtitle {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+/* Quick Stats Metadata Grid */
+.cs-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  background-color: var(--bg-alt);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.cs-stat-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+}
+
+.cs-stat-item strong {
+  color: var(--text-dark);
+  margin-bottom: 0.2rem;
+}
+
+.cs-stat-item span {
+  color: var(--text-muted);
+}
+
+/* Case Study Content Sections */
+.cs-section {
+  margin-bottom: 1.5rem;
+}
+
+.cs-section h3 {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.cs-section p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.cs-list {
+  padding-left: 1.25rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.cs-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Impact Callout Box */
+.cs-highlight-box {
+  background-color: #eef2ff;
+  border-left: 4px solid var(--primary);
+  padding: 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin-top: 1.5rem;
+}
+
+.cs-highlight-box h3 {
+  color: #3730a3;
+}
+
+.cs-highlight-box .cs-list {
+  color: #312e81;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 600px) {
+  .cs-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-content {
+    padding: 1.5rem;
+  }
+}

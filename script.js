@@ -145,6 +145,119 @@ const projectDetails = {
         Explore the Faculty Development Toolkit &rarr;
       </a>
     </div>
+  `,
+sample1: `
+    <div class="cs-header">
+      <span class="cert-badge">Toolkits Sample</span>
+      <h2 class="cs-title">Physician Well-Being Digital Toolkits</h2>
+      <p class="cs-subtitle">Performance Support & Microlearning Resources</p>
+    </div>
+
+    <div class="cs-stats-grid">
+      <div class="cs-stat-item">
+        <strong>Format</strong>
+        <span>Web Guides & Downloadable PDFs</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Audience</strong>
+        <span>GME Program Directors & Leaders</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Design Strategy</strong>
+        <span>Just-In-Time Workflow Support</span>
+      </div>
+    </div>
+
+    <div class="cs-section">
+      <h3>Design Overview</h3>
+      <p>
+        Developed as part of national medical education initiatives, these digital toolkits condense complex institutional guidelines into digestible, actionable steps that clinical leaders can implement during daily administrative and educational rounds.
+      </p>
+    </div>
+
+    <div class="cs-section">
+      <h3>Key Instructional Highlights</h3>
+      <ul class="cs-list">
+        <li><strong>Scannable Visual Architecture:</strong> Uses chunked visual hierarchies, clear typography, and color-coded categorizations for rapid lookup.</li>
+        <li><strong>Actionable Checklists:</strong> Interactive self-assessments enabling clinical leaders to audit program health and implement change effectively.</li>
+      </ul>
+    </div>
+  `,
+
+  sample2: `
+    <div class="cs-header">
+      <span class="cert-badge">eLearning Sample</span>
+      <h2 class="cs-title">Interactive Learning Modules & Multimedia</h2>
+      <p class="cs-subtitle">Articulate Rise 360 & Studio Video Integration</p>
+    </div>
+
+    <div class="cs-stats-grid">
+      <div class="cs-stat-item">
+        <strong>Tools</strong>
+        <span>Rise 360, Premiere Pro, Audition</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Audience</strong>
+        <span>Physician Educators & Residents</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Format</strong>
+        <span>Responsive Microlearning Courses</span>
+      </div>
+    </div>
+
+    <div class="cs-section">
+      <h3>Design Overview</h3>
+      <p>
+        Designed to fit into busy clinical schedules, these web-based microlearning modules pair studio-produced video modules with interactive reflection questions, audio feeds, and downloadable reference materials.
+      </p>
+    </div>
+
+    <div class="cs-section">
+      <h3>Key Instructional Highlights</h3>
+      <ul class="cs-list">
+        <li><strong>SME Video & Audio Integration:</strong> High-production video modules embedded directly into self-paced learning sequences.</li>
+        <li><strong>Interactive Engagement:</strong> Knowledge checks, accordion reveals, and scenario tabs designed to maintain active user involvement across mobile and desktop screens.</li>
+      </ul>
+    </div>
+  `,
+
+  sample3: `
+    <div class="cs-header">
+      <span class="cert-badge">ISD Blueprint Sample</span>
+      <h2 class="cs-title">Curriculum Storyboarding & Design Blueprints</h2>
+      <p class="cs-subtitle">Instructional Systems Design & ADDIE Alignment</p>
+    </div>
+
+    <div class="cs-stats-grid">
+      <div class="cs-stat-item">
+        <strong>Framework</strong>
+        <span>ADDIE & Bloom's Taxonomy</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Deliverables</strong>
+        <span>Visual Storyboards & Media Scripts</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Outcome</strong>
+        <span>SME Alignment & Production Prep</span>
+      </div>
+    </div>
+
+    <div class="cs-section">
+      <h3>Design Overview</h3>
+      <p>
+        Comprehensive instructional planning documentation mapping learning objectives directly to multimedia assets, assessment items, and interactive engagement points before production and authoring begins.
+      </p>
+    </div>
+
+    <div class="cs-section">
+      <h3>Key Instructional Highlights</h3>
+      <ul class="cs-list">
+        <li><strong>Objective Mapping:</strong> Ensures every visual element, audio prompt, and evaluation item directly measures a stated learning objective.</li>
+        <li><strong>SME Collaboration:</strong> Provides clinical committees with a clear, reviewable blueprint to validate accuracy early in the design cycle.</li>
+      </ul>
+    </div>
   `
 };
 
