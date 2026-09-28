@@ -1,6 +1,6 @@
 const projectDetails = {
   // Project 1: LMS Redesign
-  project1: `
+project1: `
     <div class="cs-header">
       <span class="cert-badge">Case Study</span>
       <h2 class="cs-title">LMS Redesign: Learn at ACGME</h2>
@@ -31,7 +31,22 @@ const projectDetails = {
       </p>
     </div>
 
-    <!-- Objectives Section -->
+    <!-- Homepage Comparison Grid -->
+    <div class="cs-section">
+      <h3>Homepage Modernization (Before vs. After)</h3>
+      <div class="cs-comparison-grid">
+        <div class="cs-media-item">
+          <img src="Home Page Old.png" alt="Legacy LMS Homepage" class="cs-image" />
+          <span class="cs-image-caption">Legacy LMS Homepage</span>
+        </div>
+        <div class="cs-media-item">
+          <img src="Home Page New.png" alt="Redesigned LMS Homepage" class="cs-image" />
+          <span class="cs-image-caption">Redesigned LMS Homepage</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Key Objectives Section -->
     <div class="cs-section">
       <h3>Key Objectives</h3>
       <ul class="cs-list">
@@ -40,6 +55,21 @@ const projectDetails = {
         <li>Integrate high-production educational videos and podcasts into structured courses.</li>
         <li>Establish analytics tracking to evaluate usage, completion metrics, and user engagement.</li>
       </ul>
+    </div>
+
+    <!-- Mobile View Comparison Grid -->
+    <div class="cs-section">
+      <h3>Mobile Responsiveness (Before vs. After)</h3>
+      <div class="cs-comparison-grid">
+        <div class="cs-media-item">
+          <img src="Mobile View Old.png" alt="Legacy Mobile View" class="cs-image" />
+          <span class="cs-image-caption">Legacy Mobile Experience</span>
+        </div>
+        <div class="cs-media-item">
+          <img src="Mobile View New.png" alt="Redesigned Mobile View" class="cs-image" />
+          <span class="cs-image-caption">Redesigned Responsive Layout</span>
+        </div>
+      </div>
     </div>
 
     <!-- Solution Section -->
