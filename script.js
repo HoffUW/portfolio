@@ -103,7 +103,7 @@ project1: `
     </div>
   `,
 
-  // Project 2: Faculty Development Toolkit
+// Project 2: Faculty Development Toolkit
   project2: `
     <div class="cs-header">
       <span class="cert-badge">Case Study</span>
@@ -146,6 +146,28 @@ project1: `
       </ul>
     </div>
 
+    <!-- Showcase 1: Toolkit 1 -->
+    <div class="cs-section">
+      <h3>From PowerPoint to Engaging Microcourse</h3>
+      <p style="margin-bottom: 1rem;">
+        By utilizing the functionality in the LMS, we moved beyond static PowerPoint slides and allowed users to advance through the material in an interactive, self‑paced format that reinforced engagement and comprehension. They were able to take notes, explore additional resources, and email facilitators right from within the course.
+      </p>
+      <div class="cs-media-item">
+        <img src="Toolkit 1.png" alt="From PowerPoint to Engaging Microcourse - Toolkit View" class="cs-image" />
+      </div>
+    </div>
+
+    <!-- Showcase 2: Toolkit 2 -->
+    <div class="cs-section">
+      <h3>Learners Quickly Find What They Need</h3>
+      <p style="margin-bottom: 1rem;">
+        Using the LMS catalog functionality allowed us to give users multiple ways to find the content they needed. Physician time for education is often limited. Providing them a course duration filter proved incredibly useful as many of the microlearnings could be completed over a lunch break. The addition of a search function allowed people not familiar with the topics to search on key terms and perhaps discover something new.
+      </p>
+      <div class="cs-media-item">
+        <img src="Toolkit 2.png" alt="Learners Quickly Find What They Need - LMS Catalog View" class="cs-image" />
+      </div>
+    </div>
+
     <!-- Solution Section -->
     <div class="cs-section">
       <h3>The Solution & Implementation</h3>
@@ -159,6 +181,7 @@ project1: `
       </ul>
     </div>
 
+    
     <!-- Outcomes / Impact Box -->
     <div class="cs-section cs-highlight-box">
       <h3>Impact & Outcomes</h3>
@@ -178,15 +201,15 @@ project1: `
   `,
 sample1: `
     <div class="cs-header">
-      <span class="cert-badge">Toolkits Sample</span>
-      <h2 class="cs-title">Physician Well-Being Digital Toolkits</h2>
+      <span class="cert-badge">Video Sample</span>
+      <h2 class="cs-title">Physician Well-Being Course Introduction Video</h2>
       <p class="cs-subtitle">Performance Support & Microlearning Resources</p>
     </div>
 
     <div class="cs-stats-grid">
       <div class="cs-stat-item">
         <strong>Format</strong>
-        <span>Web Guides & Downloadable PDFs</span>
+        <span>Video</span>
       </div>
       <div class="cs-stat-item">
         <strong>Audience</strong>
@@ -198,19 +221,34 @@ sample1: `
       </div>
     </div>
 
+    <!-- Embedded Vimeo Video -->
+    <div class="cs-section">
+      <h3>Overview Video</h3>
+      <div style="padding:56.25% 0 0 0;position:relative;margin-top:0.75rem;border-radius:8px;overflow:hidden;">
+        <iframe src="https://player.vimeo.com/video/1215638117?h=00f8a9c90a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+          frameborder="0" 
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+          title="PWB Curriculum Opening Video and Mindset">
+        </iframe>
+      </div>
+    </div>
+
     <div class="cs-section">
       <h3>Design Overview</h3>
       <p>
-        Developed as part of national medical education initiatives, these digital toolkits condense complex institutional guidelines into digestible, actionable steps that clinical leaders can implement during daily administrative and educational rounds.
+        This video served as the opening segment of a course on physician well-being. It is designed to capture the intense emotional pressure resident physicians can experience when faced with uncertainty and the feeling of not having all the answers. Filmed at the Northwestern Hospital Simulation Lab, the vignette used a mix of professional actors and company employees (including a practicing physician) portraying roles that reflect real-world clinical experiences. 
+For adult learners, this type of opening vignette can be very effective because it creates an emotional connection to the content before introducing concepts or strategies. A realistic scenario allows learners to immediately recognize themselves, their colleagues, or situations they have encountered in practice.
       </p>
     </div>
 
     <div class="cs-section">
       <h3>Key Instructional Highlights</h3>
       <ul class="cs-list">
-        <li><strong>Scannable Visual Architecture:</strong> Uses chunked visual hierarchies, clear typography, and color-coded categorizations for rapid lookup.</li>
-        <li><strong>Actionable Checklists:</strong> Interactive self-assessments enabling clinical leaders to audit program health and implement change effectively.</li>
-      </ul>
+        <li><strong>Affective Engagement & Mindset Framing::</strong> Captures the emotional pressure and uncertainty resident physicians face, establishing immediate buy-in and empathy before introducing theoretical concepts.</li>
+        <li><strong>Simulated Realism & Contextual Authenticity:</strong> Filmed at the Northwestern Hospital Simulation Lab featuring a mix of practicing clinicians and professional actors to mirror real-world clinical dynamics.</li>
+        <li><strong>Adult Learning Alignment:</strong> Leverages realistic vignette-based narrative strategies to help adult learners quickly recognize familiar workplace scenarios and connect with the material on a practical level.
     </div>
   `,
 
