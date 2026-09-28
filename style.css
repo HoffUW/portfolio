@@ -99,7 +99,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 .hero p { color: var(--text-muted); font-size: 1.125rem; margin-bottom: 1.5rem; }
 
 .badge { background: #e0e7ff; color: var(--primary); padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.875rem; font-weight: 600; }
-.container { padding: 2rem 5%; max-width: 1100px; margin: 2 auto; }
+.container { padding: 2rem 5%; max-width: 1100px; margin: 0 auto; }
 .bg-alt { background: var(--bg-alt); }
 
 .card-grid { 
@@ -475,6 +475,40 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 
 .cs-list li {
   margin-bottom: 0.5rem;
+}
+
+.cs-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px; /* Optional: adds smooth rounded corners */
+}
+
+.cs-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.cs-media-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cs-image-caption {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* Stack comparison images vertically on mobile screens */
+@media (max-width: 600px) {
+  .cs-comparison-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Impact Callout Box */

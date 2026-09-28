@@ -62,11 +62,11 @@ project1: `
       <h3>Mobile Responsiveness (Before vs. After)</h3>
       <div class="cs-comparison-grid">
         <div class="cs-media-item">
-          <img src="Mobile View Old.png" alt="Legacy Mobile View" class="cs-image" />
+          <img src="Mobile Old.png" alt="Legacy Mobile View" class="cs-image" />
           <span class="cs-image-caption">Legacy Mobile Experience</span>
         </div>
         <div class="cs-media-item">
-          <img src="Mobile View New.png" alt="Redesigned Mobile View" class="cs-image" />
+          <img src="Mobile New.png" alt="Redesigned Mobile View" class="cs-image" />
           <span class="cs-image-caption">Redesigned Responsive Layout</span>
         </div>
       </div>
