@@ -238,9 +238,10 @@ sample1: `
     <div class="cs-section">
       <h3>Key Instructional Highlights</h3>
       <ul class="cs-list">
-        <li><strong>Affective Engagement & Mindset Framing::</strong> Captures the emotional pressure and uncertainty resident physicians face, establishing immediate buy-in and empathy before introducing theoretical concepts.</li>
-        <li><strong>Simulated Realism & Contextual Authenticity:</strong> Filmed at the Northwestern Hospital Simulation Lab featuring a mix of practicing clinicians and professional actors to mirror real-world clinical dynamics.</li>
-        <li><strong>Adult Learning Alignment:</strong> Leverages realistic vignette-based narrative strategies to help adult learners quickly recognize familiar workplace scenarios and connect with the material on a practical level.
+        <li><strong>Proactive Mindset & Guidance:</strong> Addresses the stress and uncertainty around accreditation citations, delivering constructive, reassuring, and step-by-step direction for leadership teams.</li>
+        <li><strong>Visual Metaphors & Minimalist Design:</strong> Uses clean, focused graphics and intuitive metaphors to simplify complex regulatory requirements without overwhelming the viewer.</li>
+        <li><strong>Real-World Application:</strong> Translates abstract compliance procedures into clear, actionable steps that program directors and coordinators can execute immediately.</li>
+      </ul>
     </div>
   `,
 
