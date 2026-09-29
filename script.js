@@ -202,8 +202,8 @@ project1: `
 sample1: `
     <div class="cs-header">
       <span class="cert-badge">Video Sample</span>
-      <h2 class="cs-title">Physician Well-Being Course Introduction Video</h2>
-      <p class="cs-subtitle">Performance Support & Microlearning Resources</p>
+      <h2 class="cs-title">Responding to Citations</h2>
+      <p class="cs-subtitle">Explainer Video</p>
     </div>
 
     <div class="cs-stats-grid">
@@ -213,7 +213,7 @@ sample1: `
       </div>
       <div class="cs-stat-item">
         <strong>Audience</strong>
-        <span>GME Program Directors & Leaders</span>
+        <span>GME Program Directors & Coordinators</span>
       </div>
       <div class="cs-stat-item">
         <strong>Design Strategy</strong>
@@ -224,22 +224,14 @@ sample1: `
     <!-- Embedded Vimeo Video -->
     <div class="cs-section">
       <h3>Overview Video</h3>
-      <div style="padding:56.25% 0 0 0;position:relative;margin-top:0.75rem;border-radius:8px;overflow:hidden;">
-        <iframe src="https://player.vimeo.com/video/1215638117?h=00f8a9c90a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-          frameborder="0" 
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-          title="PWB Curriculum Opening Video and Mindset">
-        </iframe>
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1231385175?h=d471c27dbc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Responding to Citations Short"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       </div>
     </div>
 
     <div class="cs-section">
       <h3>Design Overview</h3>
       <p>
-        This video served as the opening segment of a course on physician well-being. It is designed to capture the intense emotional pressure resident physicians can experience when faced with uncertainty and the feeling of not having all the answers. Filmed at the Northwestern Hospital Simulation Lab, the vignette used a mix of professional actors and company employees (including a practicing physician) portraying roles that reflect real-world clinical experiences. 
-For adult learners, this type of opening vignette can be very effective because it creates an emotional connection to the content before introducing concepts or strategies. A realistic scenario allows learners to immediately recognize themselves, their colleagues, or situations they have encountered in practice.
+        This is an excerpt from a longer explainer video that was created to give Program Directors and Coordinators a broad overview of how to respond to an accreditation citation. My goal was to provide practical guidance while also addressing the emotional and procedural challenges involved. Visually, I kept things simple and straightforward using clear graphics and minimalistic design elements. I incorporated easily understood metaphors, step-by-step demonstrations and real-world examples to make the content relatable and actionable.
       </p>
     </div>
 
