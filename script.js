@@ -397,9 +397,9 @@ sample3: `
     <div class="cs-section">
       <h3>Instructional Artifacts & Deliverables</h3>
       <div class="cs-comparison-grid" style="grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 0.75rem;">
-        <a href="#" class="btn" style="text-align: center; font-size: 0.85rem; padding: 0.5rem;">Google Slides Deck</a>
-        <a href="#" class="btn" style="text-align: center; font-size: 0.85rem; padding: 0.5rem;">Resource Document</a>
-        <a href="#" class="btn" style="text-align: center; font-size: 0.85rem; padding: 0.5rem;">Video Screenshot</a>
+        <a href="https://docs.google.com/presentation/d/12O3pQM0EptLFxL-Mr7g_D_nW9EsOd2foVtI_i4R9kM0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn" style="text-align: center; font-size: 0.85rem; padding: 0.5rem;">Google Slides Deck</a>
+        <a href="https://drive.google.com/file/d/1LfdOMzmruZs77dWlxPMlYEBBS0lcWbEu/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn">Resource Document</a>
+      
       </div>
     </div>
   `,
