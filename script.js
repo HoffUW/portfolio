@@ -274,12 +274,36 @@ For adult learners, this type of opening vignette can be very effective because 
       </div>
     </div>
 
+        <!-- Image Showcase -->
+    <div class="cs-section">
+      <h3>Visual Design & Architecture</h3>
+      <div class="cs-media-item" style="margin-top:0.75rem;">
+        <img src="Complex Before.PNG" alt="Complex Before Diagram" class="cs-image" />
+      </div>
+    </div>
+
     <div class="cs-section">
       <h3>Design Overview</h3>
       <p>
         Designed to fit into busy clinical schedules, these web-based microlearning modules pair studio-produced video modules with interactive reflection questions, audio feeds, and downloadable reference materials.
       </p>
     </div>
+    
+    <!-- Animated Video Showcase -->
+    <div class="cs-section">
+      <h3>Animated Video Showcase</h3>
+      <div style="padding:75% 0 0 0;position:relative;margin-top:0.75rem;border-radius:8px;overflow:hidden;">
+        <iframe src="https://player.vimeo.com/video/1215646178?h=fd2032764f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+          frameborder="0" 
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+          title="Self Regulatory Assessment Sys_Slide 30_5">
+        </iframe>
+      </div>
+    </div>
+
+
 
     <div class="cs-section">
       <h3>Key Instructional Highlights</h3>
@@ -290,43 +314,95 @@ For adult learners, this type of opening vignette can be very effective because 
     </div>
   `,
 
-  sample3: `
+sample3: `
     <div class="cs-header">
       <span class="cert-badge">ISD Blueprint Sample</span>
-      <h2 class="cs-title">Curriculum Storyboarding & Design Blueprints</h2>
-      <p class="cs-subtitle">Instructional Systems Design & ADDIE Alignment</p>
+      <h2 class="cs-title">The Corporate Managers’ AI Adoption Playbook</h2>
+      <p class="cs-subtitle">Overcoming Team Skepticism and Maximizing AI Utilization</p>
     </div>
 
+    <!-- Quick Overview Stats -->
     <div class="cs-stats-grid">
       <div class="cs-stat-item">
-        <strong>Framework</strong>
-        <span>ADDIE & Bloom's Taxonomy</span>
+        <strong>Target Audience</strong>
+        <span>Corporate Managers (Ages 30–55)</span>
       </div>
       <div class="cs-stat-item">
-        <strong>Deliverables</strong>
-        <span>Visual Storyboards & Media Scripts</span>
+        <strong>Delivery Method</strong>
+        <span>Live Online (Zoom + Breakouts)</span>
       </div>
       <div class="cs-stat-item">
-        <strong>Outcome</strong>
-        <span>SME Alignment & Production Prep</span>
+        <strong>Assessment Model</strong>
+        <span>Criterion-Referenced (80% Mastery)</span>
       </div>
     </div>
 
+    <!-- Design Rationale & Problem Statement -->
     <div class="cs-section">
-      <h3>Design Overview</h3>
+      <h3>Project Overview</h3>
       <p>
-        Comprehensive instructional planning documentation mapping learning objectives directly to multimedia assets, assessment items, and interactive engagement points before production and authoring begins.
+        Designed to support corporate managers in leading teams through organizational AI shifts. While managers possess strong technological fluency, team members face psychological resistance, fear of job loss, and ethical uncertainty.
       </p>
     </div>
 
+    <!-- Key Statistic Callout -->
+    <div class="cs-highlight-box" style="margin-bottom: 1.5rem;">
+      <h3 style="margin-bottom: 0.25rem;">The Core Problem</h3>
+      <p style="font-size: 1.05rem; font-weight: 600;">
+        "79% of strategists deem AI critical, but only 20% of employees use it daily."
+      </p>
+    </div>
+
+    <!-- Section 1: Needs Assessment & Learner Profile -->
     <div class="cs-section">
-      <h3>Key Instructional Highlights</h3>
+      <h3>Needs Assessment & Learner Profile</h3>
       <ul class="cs-list">
-        <li><strong>Objective Mapping:</strong> Ensures every visual element, audio prompt, and evaluation item directly measures a stated learning objective.</li>
-        <li><strong>SME Collaboration:</strong> Provides clinical committees with a clear, reviewable blueprint to validate accuracy early in the design cycle.</li>
+        <li><strong>Learner Characteristics:</strong> Highly educated professionals (Master's/MBAs), fluent in English, managing heavy workloads and performance presssures.</li>
+        <li><strong>Instructional Needs:</strong> Flexible, visually supported learning accessible across time zones with job aids, recorded sessions, and closed captioning.</li>
       </ul>
     </div>
-  `
+
+    <!-- Section 2: Learning Goals & Alignment -->
+    <div class="cs-section">
+      <h3>Learning Goals & Module Breakdown</h3>
+      <div style="background: var(--bg-alt); padding: 1rem; border-radius: 8px; border-left: 3px solid var(--primary); margin-top: 0.75rem;">
+        <strong>Terminal Goal:</strong> Evaluate root causes of AI skepticism and execute targeted change management strategies combining empathetic coaching and human-in-the-loop guardrails.
+      </div>
+      <ul class="cs-list" style="margin-top: 1rem;">
+        <li><strong>Module 1:</strong> Employ empathetic coaching to address psychological barriers driving skepticism.</li>
+        <li><strong>Module 2:</strong> Implement secure human-in-the-loop workflow guardrails.</li>
+        <li><strong>Module 3:</strong> Restructure performance metrics and incentives to reward AI experimentation.</li>
+      </ul>
+    </div>
+
+    <!-- Section 3: Task & Information Processing Analysis -->
+    <div class="cs-section">
+      <h3>Information Processing Analysis (Module 1)</h3>
+      <ol class="cs-list" style="padding-left: 1.25rem;">
+        <li><strong>Identify Barriers:</strong> Determine the 5 common psychological barriers driving AI skepticism.</li>
+        <li><strong>Recognize Cues:</strong> Identify key verbal and behavioral language associated with each barrier.</li>
+        <li><strong>Employ Coaching:</strong> Select and execute the appropriate corrective coaching technique.</li>
+      </ol>
+    </div>
+
+    <!-- Section 4: Evaluation Strategy -->
+    <div class="cs-section">
+      <h3>Evaluation Plan</h3>
+      <p>
+        <strong>One-to-One Formative Evaluation:</strong> Piloted with corporate managers to gather qualitative feedback on Zoom breakout role-plays and Box file workflows to optimize pacing, cognitive load, and accessibility.
+      </p>
+    </div>
+
+    <!-- Section 5: Instructional Package / Artifact Downloads -->
+    <div class="cs-section">
+      <h3>Instructional Artifacts & Deliverables</h3>
+      <div class="cs-comparison-grid" style="grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 0.75rem;">
+        <a href="#" class="btn" style="text-align: center; font-size: 0.85rem; padding: 0.5rem;">Google Slides Deck</a>
+        <a href="#" class="btn" style="text-align: center; font-size: 0.85rem; padding: 0.5rem;">Resource Document</a>
+        <a href="#" class="btn" style="text-align: center; font-size: 0.85rem; padding: 0.5rem;">Video Screenshot</a>
+      </div>
+    </div>
+  `,
 };
 
 function openModal(projectId) {
