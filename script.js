@@ -278,7 +278,7 @@ For adult learners, this type of opening vignette can be very effective because 
     <div class="cs-section">
       <h3>Visual Design & Architecture</h3>
       <div class="cs-media-item" style="margin-top:0.75rem;">
-        <img src="Complex Before.PNG" alt="Complex Before Diagram" class="cs-image" />
+        <img src="Complex Before.png" alt="Complex Before Diagram" class="cs-image" />
       </div>
     </div>
 
