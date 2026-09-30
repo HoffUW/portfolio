@@ -109,6 +109,12 @@ section h2::after {
 .hero h1 { font-size: 2.5rem; margin: 1rem 0; }
 .hero p { color: var(--text-muted); font-size: 1.125rem; margin-bottom: 1.5rem; }
 
+.mission-container {
+  border-left: 5px solid var(--teal-accent);
+}
+
+
+
 .badge { background: #e0e7ff; color: var(--primary); padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.875rem; font-weight: 600; }
 .container { padding: 2rem 5%; max-width: 1100px; margin: 0 auto; }
 .bg-alt { background: var(--bg-alt); }
