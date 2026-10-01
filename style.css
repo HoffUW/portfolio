@@ -214,6 +214,12 @@ section h2::after {
   white-space: nowrap;
 }
 
+.cert-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* Subtitle / Focus Area */
 .cert-subtitle {
   font-size: 0.95rem;
@@ -524,6 +530,9 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 .cs-media-item {
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Pushes the caption to the bottom of the card */
+  align-items: center;            /* Centers image and caption horizontally */
+  height: 100%;                   /* Ensures both grid items stretch to full height */
   gap: 0.5rem;
 }
 
@@ -531,6 +540,7 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
   font-size: 0.85rem;
   color: var(--text-muted);
   text-align: center;
+  margin-top: auto;              /* Pushes caption down to align across both cards */
 }
 
 /* Stack comparison images vertically on mobile screens */

@@ -30,6 +30,16 @@ project1: `
         Learn at ACGME serves as the central educational hub for graduate medical education professionals across the nation. The legacy system suffered from fragmented content organization, limited mobile responsiveness, and rigid navigation, making it difficult for busy physicians to discover key learning materials efficiently.
       </p>
     </div>
+        <!-- Key Objectives Section -->
+    <div class="cs-section">
+      <h3>Key Objectives</h3>
+      <ul class="cs-list">
+        <li>Modernize the UI/UX for a clean, accessible, and mobile-friendly experience.</li>
+        <li>Streamline content discovery by reorganizing learning pathways and topic hubs.</li>
+        <li>Integrate high-production educational videos and podcasts into structured courses.</li>
+        <li>Establish analytics tracking to evaluate usage, completion metrics, and user engagement.</li>
+      </ul>
+    </div>
 
     <!-- Homepage Comparison Grid -->
     <div class="cs-section">
@@ -46,16 +56,7 @@ project1: `
       </div>
     </div>
 
-    <!-- Key Objectives Section -->
-    <div class="cs-section">
-      <h3>Key Objectives</h3>
-      <ul class="cs-list">
-        <li>Modernize the UI/UX for a clean, accessible, and mobile-friendly experience.</li>
-        <li>Streamline content discovery by reorganizing learning pathways and topic hubs.</li>
-        <li>Integrate high-production educational videos and podcasts into structured courses.</li>
-        <li>Establish analytics tracking to evaluate usage, completion metrics, and user engagement.</li>
-      </ul>
-    </div>
+
 
     <!-- Mobile View Comparison Grid -->
     <div class="cs-section">
@@ -115,11 +116,11 @@ project1: `
     <div class="cs-stats-grid">
       <div class="cs-stat-item">
         <strong>Role</strong>
-        <span>Media Production Specialist / ID</span>
+        <span>Manager, Learning Technologies</span>
       </div>
       <div class="cs-stat-item">
         <strong>Scope</strong>
-        <span>Interactive Web Ecosystem</span>
+        <span>Interactive Learning Ecosystem</span>
       </div>
       <div class="cs-stat-item">
         <strong>Audience</strong>
@@ -131,7 +132,7 @@ project1: `
     <div class="cs-section">
       <h3>The Challenge</h3>
       <p>
-        Physician educators required accessible, practical tools to evaluate resident progress, conduct meaningful assessments, and deliver constructive feedback. Existing materials were static slide decks and lengthy PDFs, which hindered engagement and made just-in-time application in busy clinical settings difficult.
+        Physician educators required accessible, practical tools to help them better evaluate resident progress, conduct meaningful assessments, and deliver constructive feedback. Existing materials were static slide decks and lengthy PDFs, which hindered engagement and made just-in-time application in busy clinical settings difficult.
       </p>
     </div>
 
