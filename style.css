@@ -331,17 +331,32 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 
 
 
-/* Photo Styling */
+/* Ensure the photo container doesn't shrink or deform */
+.mission-photo {
+  flex-shrink: 0; /* Prevents flexbox from squishing the image container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Force the image to maintain a perfect square aspect ratio */
 .mission-photo img {
-  width: 140px; /* Set fixed photo width */
-  height: 190px; /* Set fixed photo height */
-  
-  border-radius: 50%; /* Makes image circular */
-  flex-shrink: 0; /* Prevents image from shrinking on smaller screens */
-  border: 3px solid #ffffff; /* Subtle border framing (change color to match your palette) */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow depth */
-  margin: 0 auto 1.5rem auto; /* Centers the image and adds bottom spacing */
-  display: block;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top center; /* Focuses framing on the top/face so it doesn't clip */
+  border-radius: 50%;
+}
+
+/* Mobile Responsiveness Adjustment */
+/* Mobile Adjustment */
+@media (max-width: 768px) {
+  .mission-photo img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 1rem;
+  }
 }
 /* Container link styling */
 .brand-logo {
@@ -435,12 +450,28 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
   color: #4b5563;
 }
 
-/* Responsive design for mobile screens */
+/* Ensure hero container stacks vertically on mobile */
 @media (max-width: 640px) {
   .mission-container {
-    flex-direction: column; /* Stacks image on top of text on small screens */
+    flex-direction: column;
     text-align: center;
-    gap: 20px;
+    align-items: center;
+  }
+
+  .mission-photo img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 100%; /* Full-width buttons on mobile for easier tapping */
+    max-width: 300px;
   }
 }
 /* CSS */
@@ -609,5 +640,26 @@ input, textarea { padding: 0.75rem; border: 1px solid var(--border); border-radi
 
   .modal-content {
     padding: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  #contact > div {
+    flex-direction: column;
+    gap: 1.5rem !important;
+  }
+
+  #contact input, 
+  #contact textarea, 
+  #contact button {
+    width: 100%;
+    box-sizing: border-box; /* Prevents input padding from causing overflow */
+  }
+}
+
+/* Stack Featured Projects and Samples on tablets and mobile screens */
+@media (max-width: 768px) {
+  #projects .card-grid,
+  #samples .card-grid {
+    grid-template-columns: 1fr !important;
   }
 }
