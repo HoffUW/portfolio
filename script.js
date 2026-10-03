@@ -1,6 +1,6 @@
 const projectDetails = {
   // Project 1: LMS Redesign
-project1: `
+  project1: `
     <div class="cs-header">
       <span class="cert-badge">Case Study</span>
       <h2 class="cs-title">LMS Redesign: Learn at ACGME</h2>
@@ -30,7 +30,8 @@ project1: `
         Learn at ACGME serves as the central educational hub for graduate medical education professionals across the nation. The legacy system suffered from fragmented content organization, limited mobile responsiveness, and rigid navigation, making it difficult for busy physicians to discover key learning materials efficiently.
       </p>
     </div>
-        <!-- Key Objectives Section -->
+
+    <!-- Key Objectives Section -->
     <div class="cs-section">
       <h3>Key Objectives</h3>
       <ul class="cs-list">
@@ -55,8 +56,6 @@ project1: `
         </div>
       </div>
     </div>
-
-
 
     <!-- Mobile View Comparison Grid -->
     <div class="cs-section">
@@ -104,7 +103,7 @@ project1: `
     </div>
   `,
 
-// Project 2: Faculty Development Toolkit
+  // Project 2: Faculty Development Toolkit
   project2: `
     <div class="cs-header">
       <span class="cert-badge">Case Study</span>
@@ -182,7 +181,6 @@ project1: `
       </ul>
     </div>
 
-    
     <!-- Outcomes / Impact Box -->
     <div class="cs-section cs-highlight-box">
       <h3>Impact & Outcomes</h3>
@@ -200,7 +198,8 @@ project1: `
       </a>
     </div>
   `,
-sample1: `
+
+  sample1: `
     <div class="cs-header">
       <span class="cert-badge">Video Sample</span>
       <h2 class="cs-title">Responding to Citations</h2>
@@ -246,7 +245,7 @@ sample1: `
     </div>
   `,
 
-sample2: `
+  sample2: `
     <div class="cs-header">
       <span class="cert-badge">Multimedia Design Sample</span>
       <h2 class="cs-title">Transforming Complex Concepts into Scaffolding</h2>
@@ -318,7 +317,7 @@ sample2: `
     </div>
   `,
 
-sample3: `
+  sample3: `
     <div class="cs-header">
       <span class="cert-badge">ISD Blueprint Sample</span>
       <h2 class="cs-title">The Corporate Managers’ AI Adoption Playbook</h2>
@@ -442,12 +441,17 @@ sample3: `
 function openModal(projectId) {
   const modal = document.getElementById('modal');
   const modalBody = document.getElementById('modal-body');
-  modalBody.innerHTML = projectDetails[projectId] || "<p>Details coming soon.</p>";
-  modal.style.display = 'flex';
+  if (modal && modalBody) {
+    modalBody.innerHTML = projectDetails[projectId] || "<p>Details coming soon.</p>";
+    modal.style.display = 'flex';
+  }
 }
 
 function closeModal() {
-  document.getElementById('modal').style.display = 'none';
+  const modal = document.getElementById('modal');
+  if (modal) {
+    modal.style.display = 'none';
+  }
 }
 
 function handleFormSubmit(event) {
@@ -462,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const links = document.querySelectorAll('.nav-links a');
 
   // Toggle mobile menu state
-  if (hamburger) {
+  if (hamburger && navLinks) {
     hamburger.addEventListener('click', () => {
       const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
       hamburger.setAttribute('aria-expanded', !isExpanded);
@@ -474,7 +478,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Close mobile menu when a nav item is clicked
   links.forEach(link => {
     link.addEventListener('click', () => {
-      if (hamburger) {
+      if (hamburger && navLinks) {
         hamburger.classList.remove('active');
         navLinks.classList.remove('active');
         hamburger.setAttribute('aria-expanded', 'false');
@@ -491,48 +495,4 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
-
 });
-
-
-function openModal(projectId) {
-  const modal = document.getElementById('modal');
-  const modalBody = document.getElementById('modal-body');
-  modalBody.innerHTML = projectDetails[projectId] || "<p>Details coming soon.</p>";
-  modal.style.display = 'flex';
-}
-
-function closeModal() {
-  document.getElementById('modal').style.display = 'none';
-}
-
-function handleFormSubmit(event) {
-  event.preventDefault();
-  alert("Thank you for reaching out! Your message has been recorded.");
-  event.target.reset();
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.getElementById('nav-links');
-  const links = document.querySelectorAll('.nav-links a');
-
-  // Toggle mobile menu state
-  hamburger.addEventListener('click', () => {
-    const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
-    hamburger.setAttribute('aria-expanded', !isExpanded);
-    hamburger.classList.toggle('active');
-    navLinks.classList.toggle('active');
-  });
-
-  // Close mobile menu when a nav item is clicked
-  links.forEach(link => {
-    link.addEventListener('click', () => {
-      hamburger.classList.remove('active');
-      navLinks.classList.remove('active');
-      hamburger.setAttribute('aria-expanded', 'false');
-    });
-  });
-});
-
-
