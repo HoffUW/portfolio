@@ -240,70 +240,80 @@ sample1: `
       <h3>Key Instructional Highlights</h3>
       <ul class="cs-list">
         <li><strong>Proactive Mindset & Guidance:</strong> Addresses the stress and uncertainty around accreditation citations, delivering constructive, reassuring, and step-by-step direction for leadership teams.</li>
-        <li><strong>Visual Metaphors & Minimalist Design:</strong> Uses clean, focused graphics and intuitive metaphors to simplify complex regulatory requirements without overwhelming the viewer.</li>
+        <li><strong>Visual Metaphors & Minimalist Design:</strong> Uses clean, focused graphics and intuitive metaphors to simplify complex regulatory requirements and reduce cognitive load for the viewer.</li>
         <li><strong>Real-World Application:</strong> Translates abstract compliance procedures into clear, actionable steps that program directors and coordinators can execute immediately.</li>
       </ul>
     </div>
   `,
 
-  sample2: `
+sample2: `
     <div class="cs-header">
-      <span class="cert-badge">eLearning Sample</span>
-      <h2 class="cs-title">Interactive Learning Modules & Multimedia</h2>
-      <p class="cs-subtitle">Articulate Rise 360 & Studio Video Integration</p>
+      <span class="cert-badge">Multimedia Design Sample</span>
+      <h2 class="cs-title">Transforming Complex Concepts into Scaffolding</h2>
+      <p class="cs-subtitle">Visual Motion Design & Audio Integration</p>
     </div>
 
     <div class="cs-stats-grid">
       <div class="cs-stat-item">
-        <strong>Tools</strong>
-        <span>Rise 360, Premiere Pro, Audition</span>
+        <strong>Focus</strong>
+        <span>Cognitive Load Reduction</span>
       </div>
       <div class="cs-stat-item">
-        <strong>Audience</strong>
-        <span>Physician Educators & Residents</span>
+        <strong>Strategy</strong>
+        <span>Step-by-Step Information Revealing</span>
       </div>
       <div class="cs-stat-item">
         <strong>Format</strong>
-        <span>Responsive Microlearning Courses</span>
+        <span>Animated Explainer & Motion Graphics</span>
       </div>
     </div>
 
-        <!-- Image Showcase -->
+    <!-- Section 1: Design Rationale -->
     <div class="cs-section">
-      <h3>Visual Design & Architecture</h3>
-      <div class="cs-media-item" style="margin-top:0.75rem;">
-        <img src="Complex Before.png" alt="Complex Before Diagram" class="cs-image" />
-      </div>
-    </div>
-
-    <div class="cs-section">
-      <h3>Design Overview</h3>
+      <h3>Breaking Down Complex Ideas into Digestible Content</h3>
+      <p style="margin-bottom: 0.75rem;">
+        While the static slide on the left contains essential information, presenting everything simultaneously creates visual noise and overwhelms working memory. To build a more effective learning asset, I converted the static diagram into the animated motion graphic on the right.
+      </p>
       <p>
-        Designed to fit into busy clinical schedules, these web-based microlearning modules pair studio-produced video modules with interactive reflection questions, audio feeds, and downloadable reference materials.
+        By revealing concepts step-by-step and highlighting key terminology in sync with the audio narration, the video directs learner focus, minimizes cognitive friction, and makes abstract framework structures easier to understand and retain.
       </p>
     </div>
-    
-    <!-- Animated Video Showcase -->
+
+    <!-- Showcase Media Grid -->
     <div class="cs-section">
-      <h3>Animated Video Showcase</h3>
-      <div style="padding:75% 0 0 0;position:relative;margin-top:0.75rem;border-radius:8px;overflow:hidden;">
-        <iframe src="https://player.vimeo.com/video/1215646178?h=fd2032764f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-          frameborder="0" 
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-          title="Self Regulatory Assessment Sys_Slide 30_5">
-        </iframe>
+      <h3>Static Layout vs. Paced Motion Graphic</h3>
+      <div class="cs-comparison-grid" style="margin-top: 0.75rem;">
+        
+        <!-- Left Item: Image -->
+        <div class="cs-media-item">
+          <img src="Complex Before.png" alt="Static Complex Diagram" class="cs-image" />
+          <span class="cs-image-caption">Original Static Layout</span>
+        </div>
+
+        <!-- Right Item: Animated Video -->
+        <div class="cs-media-item">
+          <div style="width:100%; padding:75% 0 0 0; position:relative; border-radius:6px; overflow:hidden;">
+            <iframe src="https://player.vimeo.com/video/1215646178?h=fd2032764f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+              title="Self Regulatory Assessment System Video">
+            </iframe>
+          </div>
+          <span class="cs-image-caption">Paced, Step-by-Step Video Transformation</span>
+        </div>
+
       </div>
     </div>
 
-
-
+    <!-- Section 2: Core Media Highlights -->
     <div class="cs-section">
-      <h3>Key Instructional Highlights</h3>
+      <h3>Key Instructional Media Highlights</h3>
       <ul class="cs-list">
-        <li><strong>SME Video & Audio Integration:</strong> High-production video modules embedded directly into self-paced learning sequences.</li>
-        <li><strong>Interactive Engagement:</strong> Knowledge checks, accordion reveals, and scenario tabs designed to maintain active user involvement across mobile and desktop screens.</li>
+        <li><strong>Progressive Information Disclosure:</strong> Converts dense, all-at-once visual graphics into sequenced visual segments to manage cognitive load.</li>
+        <li><strong>Dual-Coding Audio & Visual Alignment:</strong> Pairs clean motion graphics directly with voice narration to reinforce key terminology through dual channels.</li>
+        <li><strong>Focused Attention Cues:</strong> Highlights critical terms visually at exact moments of emphasis to guide viewer focus.</li>
       </ul>
     </div>
   `,
@@ -312,7 +322,7 @@ sample3: `
     <div class="cs-header">
       <span class="cert-badge">ISD Blueprint Sample</span>
       <h2 class="cs-title">The Corporate Managers’ AI Adoption Playbook</h2>
-      <p class="cs-subtitle">Overcoming Team Skepticism and Maximizing AI Utilization</p>
+      <p class="cs-subtitle">Instructional Systems Design & ADDIE Alignment Blueprint</p>
     </div>
 
     <!-- Quick Overview Stats -->
@@ -322,72 +332,103 @@ sample3: `
         <span>Corporate Managers (Ages 30–55)</span>
       </div>
       <div class="cs-stat-item">
-        <strong>Delivery Method</strong>
-        <span>Live Online (Zoom + Breakouts)</span>
+        <strong>Framework</strong>
+        <span>ADDIE Model Implementation</span>
       </div>
       <div class="cs-stat-item">
-        <strong>Assessment Model</strong>
-        <span>Criterion-Referenced (80% Mastery)</span>
+        <strong>Delivery Method</strong>
+        <span>Blended / Synchronous & Asynchronous</span>
       </div>
     </div>
 
-    <!-- Design Rationale & Problem Statement -->
-    <div class="cs-section">
-      <h3>Project Overview</h3>
-      <p>
-        Designed to support corporate managers in leading teams through organizational AI shifts. While managers possess strong technological fluency, team members face psychological resistance, fear of job loss, and ethical uncertainty.
+    <!-- Context & Academic Disclaimer -->
+    <div style="background-color: var(--bg-alt); padding: 0.85rem 1.15rem; border-radius: 6px; margin-bottom: 1.25rem; border-left: 3px solid var(--accent-color);">
+      <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0; line-height: 1.5;">
+        <strong>Academic Context:</strong> Developed as part of graduate coursework at the <strong>University of Illinois</strong>, this design plan outlines a full ISD framework for a fictitious global organization seeking to significantly increase employee adoption and integration of internal AI tools.
       </p>
     </div>
 
-    <!-- Key Statistic Callout -->
+    <!-- Problem Statement Callout -->
     <div class="cs-highlight-box" style="margin-bottom: 1.5rem;">
-      <h3 style="margin-bottom: 0.25rem;">The Core Problem</h3>
+      <h3 style="margin-bottom: 0.25rem;">The Core Problem & Context</h3>
       <p style="font-size: 1.05rem; font-weight: 600;">
-        "79% of strategists deem AI critical, but only 20% of employees use it daily."
+        "79% of enterprise strategists view AI as critical to operations, yet only 20% of frontline team members use it daily due to psychological resistance and uncertainty."
       </p>
     </div>
 
-    <!-- Section 1: Needs Assessment & Learner Profile -->
+    <!-- Phase 1: Analysis -->
     <div class="cs-section">
-      <h3>Needs Assessment & Learner Profile</h3>
+      <h3>1. Analysis Phase</h3>
+      <p style="margin-bottom: 0.5rem;">
+        Conducted a comprehensive needs analysis to identify root causes behind low adoption rates across mid-level management tiers:
+      </p>
       <ul class="cs-list">
-        <li><strong>Learner Characteristics:</strong> Highly educated professionals (Master's/MBAs), fluent in English, managing heavy workloads and performance presssures.</li>
-        <li><strong>Instructional Needs:</strong> Flexible, visually supported learning accessible across time zones with job aids, recorded sessions, and closed captioning.</li>
+        <li><strong>Learner Analysis:</strong> Audience consists of mid-to-senior corporate managers handling heavy operational workloads. While tech-literate, managers lack tactical frameworks to address employee anxiety around automation, job security, and data privacy.</li>
+        <li><strong>Contextual & Environmental Analysis:</strong> Training must accommodate remote, hybrid, and distributed teams across time zones, requiring accessible, bite-sized digital assets and asynchronous fallback options.</li>
+        <li><strong>Gap Analysis:</strong> Identified a critical skill gap between executive mandates for AI integration and team-level execution, specifically in managing change resistance and setting operational guardrails.</li>
       </ul>
     </div>
 
-    <!-- Section 2: Learning Goals & Alignment -->
+    <!-- Phase 2: Design -->
     <div class="cs-section">
-      <h3>Learning Goals & Module Breakdown</h3>
-      <div style="background: var(--bg-alt); padding: 1rem; border-radius: 8px; border-left: 3px solid var(--primary); margin-top: 0.75rem;">
-        <strong>Terminal Goal:</strong> Evaluate root causes of AI skepticism and execute targeted change management strategies combining empathetic coaching and human-in-the-loop guardrails.
-      </div>
-      <ul class="cs-list" style="margin-top: 1rem;">
-        <li><strong>Module 1:</strong> Employ empathetic coaching to address psychological barriers driving skepticism.</li>
-        <li><strong>Module 2:</strong> Implement secure human-in-the-loop workflow guardrails.</li>
-        <li><strong>Module 3:</strong> Restructure performance metrics and incentives to reward AI experimentation.</li>
-      </ul>
-    </div>
-
-    <!-- Section 3: Task & Information Processing Analysis -->
-    <div class="cs-section">
-      <h3>Information Processing Analysis (Module 1)</h3>
-      <ol class="cs-list" style="padding-left: 1.25rem;">
-        <li><strong>Identify Barriers:</strong> Determine the 5 common psychological barriers driving AI skepticism.</li>
-        <li><strong>Recognize Cues:</strong> Identify key verbal and behavioral language associated with each barrier.</li>
-        <li><strong>Employ Coaching:</strong> Select and execute the appropriate corrective coaching technique.</li>
-      </ol>
-    </div>
-
-    <!-- Section 4: Evaluation Strategy -->
-    <div class="cs-section">
-      <h3>Evaluation Plan</h3>
-      <p>
-        <strong>One-to-One Formative Evaluation:</strong> Piloted with corporate managers to gather qualitative feedback on Zoom breakout role-plays and Box file workflows to optimize pacing, cognitive load, and accessibility.
+      <h3>2. Design Phase</h3>
+      <p style="margin-bottom: 0.5rem;">
+        Architected the curriculum structure, terminal learning objectives (TLOs), and criterion-referenced assessment models prior to content creation:
       </p>
+      <ul class="cs-list">
+        <li><strong>Terminal Goal:</strong> Managers will evaluate root causes of team AI skepticism and execute targeted change management strategies incorporating empathetic coaching and human-in-the-loop workflows.</li>
+        <li><strong>Modular Architecture:</strong>
+          <ul style="padding-left: 1.25rem; margin-top: 0.25rem;">
+            <li><em>Module 1:</em> Diagnosing & Addressing Psychological Barriers</li>
+            <li><em>Module 2:</em> Establishing Human-in-the-Loop Workflow Guardrails</li>
+            <li><em>Module 3:</em> Incentive Realignment & Performance Metric Restructuring</li>
+          </ul>
+        </li>
+        <li><strong>Information Processing Analysis:</strong> Mapped procedural steps for managers to move from recognizing behavioral cues of resistance to selecting and executing targeted coaching interventions.</li>
+        <li><strong>Assessment Strategy:</strong> Formative scenario-based practice paired with a summative rubric-scored role-play requiring 80% mastery demonstrating effective coaching techniques.</li>
+      </ul>
     </div>
 
-  <!-- Section 5: Instructional Package / Artifact Downloads -->
+    <!-- Phase 3: Development -->
+    <div class="cs-section">
+      <h3>3. Development Phase</h3>
+      <p style="margin-bottom: 0.5rem;">
+        Produced high-impact, multimodal instructional materials designed for active engagement and real-world application:
+      </p>
+      <ul class="cs-list">
+        <li><strong>Interactive Presentation Decks:</strong> Developed visual slide systems incorporating real-world case studies, clear visual hierarchy, and explicit scaffolding.</li>
+        <li><strong>Job Aids & Performance Support:</strong> Authored downloadable reference guides, decision-tree workflows, and conversation scripts for real-time workplace implementation.</li>
+        <li><strong>Scenario Blueprints:</strong> Drafted breakout room role-play prompts and real-time reflection activities to encourage active practice in a safe environment.</li>
+      </ul>
+    </div>
+
+    <!-- Phase 4: Implementation -->
+    <div class="cs-section">
+      <h3>4. Implementation Phase</h3>
+      <p style="margin-bottom: 0.5rem;">
+        Executed a phased rollout strategy designed to ensure smooth delivery across virtual and digital environments:
+      </p>
+      <ul class="cs-list">
+        <li><strong>Facilitator Preparation:</strong> Created comprehensive leader guides and run-of-show documentation to standardize delivery across multiple cohort instructors.</li>
+        <li><strong>Delivery Infrastructure:</strong> Synchronous interactive workshops hosted via Zoom with structured breakout rooms, paired with asynchronous resource repositories hosted on cloud platforms.</li>
+        <li><strong>Accessibility Standards:</strong> Integrated universal design principles, including closed captioning, screen-reader accessible PDFs, and downloadable transcriptions.</li>
+      </ul>
+    </div>
+
+    <!-- Phase 5: Evaluation -->
+    <div class="cs-section">
+      <h3>5. Evaluation Phase</h3>
+      <p style="margin-bottom: 0.5rem;">
+        Implemented a multi-tier evaluation strategy to validate instructional effectiveness and drive continuous improvement:
+      </p>
+      <ul class="cs-list">
+        <li><strong>Formative Pilot Testing:</strong> Conducted one-to-one formative evaluation sessions with representative managers to assess cognitive load, pacing, and clarity of breakout activities.</li>
+        <li><strong>Summative Outcome Tracking:</strong> Measured participant skill acquisition through performance rubric scores and post-session self-efficacy surveys.</li>
+        <li><strong>Iterative Refinement Loop:</strong> Used participant feedback to refine discussion prompts and streamline resource documents for future cohort iterations.</li>
+      </ul>
+    </div>
+
+    <!-- Section 6: Artifact Downloads -->
     <div class="cs-section">
       <h3>Instructional Artifacts & Deliverables</h3>
       <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.75rem;">
