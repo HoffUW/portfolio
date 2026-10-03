@@ -113,6 +113,38 @@ section h2::after {
   
 }
 
+/* Centered Hero Buttons Container */
+/* Centered Hero Buttons Container */
+.hero-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap; /* Keeps buttons responsive on smaller screens */
+}
+
+/* Primary Download Button */
+.hero-btn-primary {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Secondary Contact Button */
+.hero-btn-secondary {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-btn-secondary:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
 .hero h1 { font-size: 2.5rem; margin: 1rem 0; }
 .hero p { color: var(--text-muted); font-size: 1.125rem; margin-bottom: 1.5rem; }
 
