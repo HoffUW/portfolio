@@ -89,6 +89,7 @@ const projectDetails = {
     <div class="cs-section cs-highlight-box">
       <h3>Impact & Outcomes</h3>
       <ul class="cs-list">
+        <li>Achieved a <strong>>4x increase</strong> in baseline weekly page views (2024 vs. 2026).</li>
         <li>Improved platform usability, accessibility, and navigation across mobile and desktop devices.</li>
         <li>Enhanced content engagement through structured video/audio learning paths.</li>
         <li>Provided leadership with actionable analytics to drive future learning roadmap decisions.</li>
