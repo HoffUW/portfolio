@@ -103,7 +103,7 @@ const projectDetails = {
     </div>
   `,
 
-  // Project 2: Faculty Development Toolkit
+// Project 2: Faculty Development Toolkit
   project2: `
     <div class="cs-header">
       <span class="cert-badge">Case Study</span>
@@ -185,6 +185,7 @@ const projectDetails = {
     <div class="cs-section cs-highlight-box">
       <h3>Impact & Outcomes</h3>
       <ul class="cs-list">
+        <li>Achieved <strong>30%–50% growth</strong> in average weekly distinct learners from initial post-launch baselines to late 2026.</li>
         <li>Successfully replaced static presentation decks with a scalable, interactive learning ecosystem.</li>
         <li>Expanded national reach and adoption among GME program directors and faculty members.</li>
         <li>Standardized feedback and evaluation practices across graduate medical education programs.</li>
