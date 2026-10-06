@@ -441,30 +441,30 @@ const projectDetails = {
 
 sample4: `
     <div class="cs-header">
-      <span class="cert-badge">Interactive Module Sample</span>
+      <span class="cert-badge">Articulate E-Learning Sample</span>
       <h2 class="cs-title">ACGME International (ACGME-I) Learning Module</h2>
-      <p class="cs-subtitle">Accreditation Council for Graduate Medical Education International</p>
+      <p class="cs-subtitle">Instructional Design & Articulate Development</p>
     </div>
 
     <!-- Quick Stats Grid -->
     <div class="cs-stats-grid">
       <div class="cs-stat-item">
         <strong>Role</strong>
-        <span>Manager, Learning Technologies</span>
+        <span>Lead Instructional Designer & Developer</span>
       </div>
       <div class="cs-stat-item">
-        <strong>Format</strong>
-        <span>Interactive Web Course</span>
+        <strong>Platform / Tools</strong>
+        <span>Articulate Storyline</span>
       </div>
       <div class="cs-stat-item">
         <strong>Audience</strong>
-        <span>Global Physician Educators & Residents</span>
+        <span>Global Physician Educators & International Residents</span>
       </div>
     </div>
 
     <!-- Embedded Interactive Course Window -->
     <div class="cs-section">
-      <h3>Interactive Course Preview</h3>
+      <h3>Interactive Articulate Preview</h3>
       <div style="position: relative; width: 100%; height: 550px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <iframe 
           src="https://hoffuw.github.io/ACGME_I/" 
@@ -475,17 +475,21 @@ sample4: `
       </div>
     </div>
 
-    <!-- Overview & Key Features -->
+    <!-- Instructional Strategy for Global Audiences -->
     <div class="cs-section" style="margin-top: 1.5rem;">
-      <h3>Design & Technical Highlights</h3>
+      <h3>Instructional Design Strategy for Global Audiences</h3>
+      <p style="margin-bottom: 0.75rem;">
+        Designed to make complex global regulatory frameworks easily understandable across linguistic and cultural boundaries, this course uses plain-language strategies, visual clarity, and embedded reference tools to support non-native English speakers:
+      </p>
       <ul class="cs-list">
-        <li><strong>Interactive Learning Experience:</strong> Built with web-native HTML5, CSS3, and JavaScript to deliver active learner participation and real-time knowledge checks.</li>
-        <li><strong>Global Accessibility:</strong> Optimized with responsive UI design to ensure smooth execution across varied desktop, tablet, and mobile devices.</li>
-        <li><strong>Standardized Delivery:</strong> Translates complex ACGME International accreditation frameworks into structured, bite-sized learning pathways.</li>
+        <li><strong>Integrated Glossary & Terminology Support:</strong> Features dedicated terminology lists and inline definitions to help international learners master specialized accreditation vocabulary without leaving the learning context.</li>
+        <li><strong>Plain Language & Cognitive Load Reduction:</strong> Replaces dense regulatory jargon with concise, direct language and active phrasing, minimizing reading friction and supporting fast comprehension.</li>
+        <li><strong>Visual Scaffolding & Dual Coding:</strong> Pairs succinct text with explicit visual cues, diagrams, and icon-driven callouts so key standards can be understood at a glance.</li>
+        <li><strong>Chunked Micro-Learning Units:</strong> Breaks lengthy accreditation requirements into short, self-contained sections, allowing international learners to digest information at their own pace.</li>
       </ul>
     </div>
 
-    <!-- Full Screen Launch Button -->
+      <!-- Full Screen Launch Button -->
     <div style="margin-top: 1.5rem; text-align: center;">
       <a href="https://hoffuw.github.io/ACGME_I/" target="_blank" rel="noopener noreferrer" class="btn" style="display: inline-block; text-decoration: none; width: 100%;">
         Open Course in Full Screen &rarr;
