@@ -438,6 +438,60 @@ const projectDetails = {
       </div>
     </div>
   `,
+
+sample4: `
+    <div class="cs-header">
+      <span class="cert-badge">Interactive Module Sample</span>
+      <h2 class="cs-title">ACGME International (ACGME-I) Learning Module</h2>
+      <p class="cs-subtitle">Accreditation Council for Graduate Medical Education International</p>
+    </div>
+
+    <!-- Quick Stats Grid -->
+    <div class="cs-stats-grid">
+      <div class="cs-stat-item">
+        <strong>Role</strong>
+        <span>Manager, Learning Technologies</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Format</strong>
+        <span>Interactive Web Course</span>
+      </div>
+      <div class="cs-stat-item">
+        <strong>Audience</strong>
+        <span>Global Physician Educators & Residents</span>
+      </div>
+    </div>
+
+    <!-- Embedded Interactive Course Window -->
+    <div class="cs-section">
+      <h3>Interactive Course Preview</h3>
+      <div style="position: relative; width: 100%; height: 550px; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+        <iframe 
+          src="https://hoffuw.github.io/ACGME_I/" 
+          title="ACGME International Interactive Module"
+          style="width: 100%; height: 100%; border: none;"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Overview & Key Features -->
+    <div class="cs-section" style="margin-top: 1.5rem;">
+      <h3>Design & Technical Highlights</h3>
+      <ul class="cs-list">
+        <li><strong>Interactive Learning Experience:</strong> Built with web-native HTML5, CSS3, and JavaScript to deliver active learner participation and real-time knowledge checks.</li>
+        <li><strong>Global Accessibility:</strong> Optimized with responsive UI design to ensure smooth execution across varied desktop, tablet, and mobile devices.</li>
+        <li><strong>Standardized Delivery:</strong> Translates complex ACGME International accreditation frameworks into structured, bite-sized learning pathways.</li>
+      </ul>
+    </div>
+
+    <!-- Full Screen Launch Button -->
+    <div style="margin-top: 1.5rem; text-align: center;">
+      <a href="https://hoffuw.github.io/ACGME_I/" target="_blank" rel="noopener noreferrer" class="btn" style="display: inline-block; text-decoration: none; width: 100%;">
+        Open Course in Full Screen &rarr;
+      </a>
+    </div>
+  `,
 };
 
 function openModal(projectId) {
