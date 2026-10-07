@@ -526,9 +526,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Close mobile menu when a nav item is clicked
+// Close mobile menu and any open modal when a nav item is clicked
   links.forEach(link => {
     link.addEventListener('click', () => {
+      // 1. Close open modal if present
+      closeModal();
+
+      // 2. Close mobile hamburger menu
       if (hamburger && navLinks) {
         hamburger.classList.remove('active');
         navLinks.classList.remove('active');
