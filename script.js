@@ -36,8 +36,7 @@ const projectDetails = {
       <h3>Key Objectives</h3>
       <ul class="cs-list">
         <li>Modernize the UI/UX for a clean, accessible, and mobile-friendly experience.</li>
-        <li>Streamline content discovery by reorganizing learning pathways and topic hubs.</li>
-        <li>Integrate high-production educational videos and podcasts into structured courses.</li>
+        <li>Streamline content discovery by reorganizing the content catalog and topic hubs.</li>
         <li>Establish analytics tracking to evaluate usage, completion metrics, and user engagement.</li>
       </ul>
     </div>
@@ -76,13 +75,8 @@ const projectDetails = {
     <div class="cs-section">
       <h3>The Solution & Implementation</h3>
       <p>
-        Leading the redesign initiative, I collaborated with clinical SMEs, committee members, and technical teams to restructure the platform layout around user workflows and adult learning principles:
+        Leading the redesign initiative, I collaborated with clinical SMEs, committee members, and technical teams to restructure the platform layout around user workflows and adult learning principles. We surveyed super-uesers, colleagues, and respected members of the GME community to understand how they interacted with the platform and what improvements would enhance their learning experience.
       </p>
-      <ul class="cs-list">
-        <li><strong>Structured Learning Pathways:</strong> Designed intuitive course hierarchies so users can progress seamlessly through accreditation-aligned activities.</li>
-        <li><strong>Multimedia Integration:</strong> Directly embedded studio-produced video modules and podcast series with interactive transcripts and downloadable reference guides.</li>
-        <li><strong>Data-Driven Analytics:</strong> Configured event tracking and custom dashboards to provide real-time visibility into product performance and learner outcomes.</li>
-      </ul>
     </div>
 
     <!-- Outcomes / Impact Box -->
@@ -91,7 +85,6 @@ const projectDetails = {
       <ul class="cs-list">
         <li>Achieved a <strong>>4x increase</strong> in baseline weekly page views (2024 vs. 2026).</li>
         <li>Improved platform usability, accessibility, and navigation across mobile and desktop devices.</li>
-        <li>Enhanced content engagement through structured video/audio learning paths.</li>
         <li>Provided leadership with actionable analytics to drive future learning roadmap decisions.</li>
       </ul>
     </div>
