@@ -458,7 +458,7 @@ sample4: `
       </div>
       <div class="cs-stat-item">
         <strong>Audience</strong>
-        <span>Global Physician Educators & International Residents</span>
+        <span>Global Graduate Medical Education Community</span>
       </div>
     </div>
 
@@ -479,13 +479,12 @@ sample4: `
     <div class="cs-section" style="margin-top: 1.5rem;">
       <h3>Instructional Design Strategy for Global Audiences</h3>
       <p style="margin-bottom: 0.75rem;">
-        Designed to make complex global regulatory frameworks easily understandable across linguistic and cultural boundaries, this course uses plain-language strategies, visual clarity, and embedded reference tools to support non-native English speakers:
+        Designed to make accreditation concepts easily understandable across language and cultural boundaries, this course uses plain-language, visual clarity, and embedded reference tools to support non-native English speakers:
       </p>
       <ul class="cs-list">
-        <li><strong>Integrated Glossary & Terminology Support:</strong> Features dedicated terminology lists and inline definitions to help international learners master specialized accreditation vocabulary without leaving the learning context.</li>
-        <li><strong>Plain Language & Cognitive Load Reduction:</strong> Replaces dense regulatory jargon with concise, direct language and active phrasing, minimizing reading friction and supporting fast comprehension.</li>
-        <li><strong>Visual Scaffolding & Dual Coding:</strong> Pairs succinct text with explicit visual cues, diagrams, and icon-driven callouts so key standards can be understood at a glance.</li>
-        <li><strong>Chunked Micro-Learning Units:</strong> Breaks lengthy accreditation requirements into short, self-contained sections, allowing international learners to digest information at their own pace.</li>
+        <li><strong>Integrated Glossary:</strong> Features an embedded glossary as a "just in time" learning aid to help international learners understand specialized accreditation vocabulary without leaving the learning context.</li>
+        <li><strong>Visual Scaffolding & Dual Coding:</strong> Pairs succinct text with explicit visual cues so key information can be understood at a glance.</li>
+        <li><strong>Chunked Micro-Learning Units:</strong> Comprised of short, self-contained sections, allowing international learners to digest information at their own pace.</li>
       </ul>
     </div>
 
